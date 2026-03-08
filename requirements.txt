@@ -1,0 +1,19 @@
+# Tafrigh PRO — pip install -r requirements.txt
+
+# Core
+faster-whisper
+ffmpeg-python
+pydub
+yt-dlp
+
+# Fallback engine (إذا ما تثبتش faster-whisper)
+openai-whisper
+
+# ENV loading
+python-dotenv
+
+# Optional — GPU acceleration
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Optional — build portable .exe
+# pip install pyinstaller
